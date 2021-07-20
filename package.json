@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "build": "webpack --mode=production",
+    "server:dev": "NODE_ENV=development webpack serve --mode=development --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "4.0.0-alpha.0",
+    "copy-webpack-plugin": "9.0.1",
+    "css-loader": "6.2.0",
+    "file-loader": "6.2.0",
+    "html-loader": "2.1.2",
+    "html-webpack-plugin": "5.3.2",
+    "mini-css-extract-plugin": "2.1.0",
+    "pug": "3.0.2",
+    "pug-loader": "2.4.0",
+    "raw-loader": "4.0.2",
+    "style-loader": "3.1.0",
+    "webpack": "5.45.1",
+    "webpack-cli": "4.7.2",
+    "webpack-dev-server": "3.11.2"
+  },
+  "dependencies": {
+    "dat.gui": "0.7.7",
+    "gsap": "3.7.1",
+    "three": "0.130.1"
+  }
+}
